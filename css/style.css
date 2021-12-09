@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #000;
+}
+.container {
+  margin: 0 19%;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container .title {
+  display: flex;
+  position: sticky;
+  top: 0;
+  padding: 20px 50px;
+  background-color: #ffffff;
+}
+.main-content {
+  display: flex;
+  background-color: #fff;
+}
+.title .left-side {
+  display: flex;
+  width: 70%;
+  align-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.title .right-side {
+  width: 30%;
+}
+.left-side h1 {
+  text-transform: capitalize;
+}
+.left-side h2 {
+  font-weight: 500;
+}
+.right-side img {
+  display: flex;
+  position: relative;
+  height: 100px;
+  padding-left: 1em;
+  border-radius: 50%;
+}
+
+.main-content .left-side {
+  font-weight: 500;
+  width: 70%;
+  padding: 0 50px;
+}
+
+.title-description h4 {
+  color: #74818e;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.title-description h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.title-description > p,
+.body-description > p {
+  font-size: 15px;
+  padding: 7px 0;
+}
+.body-description {
+  padding-bottom: 30px;
+}
+.title-description > h6 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #74818e;
+}
+.right div > p {
+  font-style: initial;
+  padding: 3px 0;
+}
+.right div {
+  padding-top: 30px;
+}
+.right div > h2 {
+  color: #73808d;
+  font-size: 16px;
+}
+
+.main-content .right {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  padding: 3px;
+  top: 200px;
+  width: 30%;
+  color: #7f8b97;
+  padding-left: 1em;
+}
